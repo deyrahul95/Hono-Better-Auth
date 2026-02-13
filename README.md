@@ -1,3 +1,14 @@
+# Hono Better Auth
+
+Hono todo api implementation using Bun, Better Auth authentication, Postgres DB and Docker.
+
+## Start Postgres Database
+
+```sh
+docker compose up -d
+```
+
+
 To install dependencies:
 ```sh
 bun install
