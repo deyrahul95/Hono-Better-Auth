@@ -34,9 +34,10 @@ BETTER_AUTH_URL=http://localhost:3000
 bun run db:migrate
 ```
 
-To run:
+ - To run dev server:
 ```sh
 bun run dev
 ```
 
-open http://localhost:3000
+ - For Auth References
+open `http://localhost:3000/api/auth/reference`
