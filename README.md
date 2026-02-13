@@ -15,7 +15,7 @@ bun install
 bun run db:up
 ```
 
-- Copy .env.sample to .env and update the database url
+- Copy .env.sample to .env and update the env values
 
 ```sh
 mv .env.sample .env
@@ -39,5 +39,4 @@ bun run db:migrate
 bun run dev
 ```
 
- - For Auth References
-open `http://localhost:3000/api/auth/reference`
+ - For Auth References open `http://localhost:3000/api/auth/reference`
