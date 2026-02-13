@@ -1,0 +1,5 @@
+@BaseAddress=http://localhost:3000
+
+### GET /
+GET {{BaseAddress}}
+Accept: application/json
