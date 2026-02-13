@@ -23,7 +23,15 @@ mv .env.sample .env
 
 `Example:`
 ```env
-DATABASE_URL=postgres://<username>:<password>@localhost:<port>/<db name>
+DATABASE_URL=postgres://user:password@localhost:5432/todos
+BETTER_AUTH_SECRET=8FfcOsK0J6ktQ5c0yMezA7cuLy6bqHOA
+BETTER_AUTH_URL=http://localhost:3000
+```
+
+- Migrate Database
+
+```sh
+bun run db:migrate
 ```
 
 To run:
