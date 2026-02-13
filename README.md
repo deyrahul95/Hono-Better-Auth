@@ -12,7 +12,7 @@ bun install
 - Start Postgres Database
 
 ```sh
-docker compose up -d
+bun run db:up
 ```
 
 - Copy .env.sample to .env and update the database url

@@ -5,7 +5,14 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "cSpell.words": [
         "hono",
+        "Millis",
         "postgres",
         "rahul"
-    ]
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
