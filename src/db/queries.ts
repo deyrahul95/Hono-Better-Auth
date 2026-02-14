@@ -8,7 +8,9 @@ export const insertTodoAsync = async (todo: AddTodoDTO): Promise<TodoDTO> => {
   return newTodo;
 };
 
-export const getTodosByUserId = async (userId: string): Promise<TodoDTO[]> => {
+export const getTodosByUserIdAsync = async (
+  userId: string,
+): Promise<TodoDTO[]> => {
   const todoList = await db
     .select()
     .from(todos)
