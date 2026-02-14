@@ -8,6 +8,13 @@
       "when": 1770980394144,
       "tag": "0000_narrow_crusher_hogan",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1771091234572,
+      "tag": "0001_dusty_silver_samurai",
+      "breakpoints": true
     }
   ]
 }
