@@ -3,3 +3,31 @@
 ### GET /
 GET {{BaseAddress}}
 Accept: application/json
+
+
+### POST login
+POST {{BaseAddress}}/api/auth/sign-in/email
+Content-Type: application/json
+Origin: http://localhost:3000
+
+{
+  "email": "",
+  "password": "",
+  "callbackURL": "http://localhost:3000",
+  "rememberMe": true
+}
+
+
+### POST create todo
+POST {{BaseAddress}}/api/todos
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "Complete hono course",
+    "description": "Better Auth"
+}
+
+### GET todos
+GET {{BaseAddress}}/api/todos
+Accept: application/json
